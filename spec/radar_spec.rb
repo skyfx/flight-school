@@ -23,7 +23,7 @@ RSpec.describe Radar, ".status_for" do
     end
 
     it "has a city" do
-      expect(status.city).to eq("New York city")
+      expect(status.city).to eq("New York")
     end
 
     it "has weather" do
